@@ -20,10 +20,10 @@ const Header = () => {
                             <NavLink className="nav-right" to={"/Sign"}>Войти</NavLink>
                             <NavLink to={"/Follow"} className="button-header">Подписаться</NavLink>
                         </div>
+
                     </div>
 
                 </div>
-
             </div>
             
         </div>
