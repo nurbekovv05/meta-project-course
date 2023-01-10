@@ -1,6 +1,12 @@
 #header {
   padding: 30px;
   background: #102146;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  opacity: 0.9;
+  width: 100%;
 }
 #header .header-logo {
   display: flex;
