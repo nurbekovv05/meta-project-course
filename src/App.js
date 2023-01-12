@@ -8,6 +8,7 @@ import About from "./components/About/About";
 import Sign from "./components/Sign/Sign"
 import Home from "./components/Home/Home"
 import Course from "./components/Course/Course";
+import HomePage from "./components/Home/Home-page/Home-Page";
 
 
 function App() {
@@ -20,6 +21,8 @@ function App() {
             <Route path={"/Sign"} element={<Sign/>}/>
             <Route path={"/Header"} element={<Header/>}/>
             <Route path={"/Home"} element={<Home/>}/>
+            <Route path={"/Footer"} element={<Footer/>}/>
+            <Route path={"/Home-Page"} element={<HomePage/>}/>
         </Routes>
     </div>
   );
