@@ -10,7 +10,6 @@ import Home from "./components/Home/Home"
 import Course from "./components/Course/Course";
 import HomePage from "./components/Home/Home-page/Home-Page";
 
-
 function App() {
   return (
     <div className="App">
@@ -20,9 +19,12 @@ function App() {
             <Route path={"/About"} element={<About/>}/>
             <Route path={"/Sign"} element={<Sign/>}/>
             <Route path={"/Header"} element={<Header/>}/>
+            <Route path={"/Footer"} element={<Footer/>}/>
             <Route path={"/Home"} element={<Home/>}/>
+
             <Route path={"/Footer"} element={<Footer/>}/>
             <Route path={"/Home-Page"} element={<HomePage/>}/>
+
         </Routes>
     </div>
   );
