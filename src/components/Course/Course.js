@@ -10,6 +10,7 @@ const Course = () => {
         <div>
             <Course_Hero/>
             <Course_hero/>
+
         </div>
     );
 };

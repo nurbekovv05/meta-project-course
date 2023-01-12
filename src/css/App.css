@@ -1146,10 +1146,11 @@ body {
 #page-articles .page-articles_blogs {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
   gap: 15px;
 }
 #page-articles .page-articles_blogs-blog {
-  width: 30%;
+  width: 28%;
   background: #FFFFFF;
   border-radius: 10.5502px;
   padding: 14px 16px;
