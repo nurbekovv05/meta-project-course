@@ -9,7 +9,6 @@ import Sign from "./components/Sign/Sign"
 import Home from "./components/Home/Home"
 import Course from "./components/Course/Course";
 
-
 function App() {
   return (
     <div className="App">
@@ -19,7 +18,9 @@ function App() {
             <Route path={"/About"} element={<About/>}/>
             <Route path={"/Sign"} element={<Sign/>}/>
             <Route path={"/Header"} element={<Header/>}/>
+            <Route path={"/Footer"} element={<Footer/>}/>
             <Route path={"/Home"} element={<Home/>}/>
+
         </Routes>
     </div>
   );
