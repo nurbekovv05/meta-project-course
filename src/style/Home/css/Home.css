@@ -1,0 +1,19 @@
+#home-hero .home-hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#home-hero .home-hero_desc h1 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+  color: #FFFFFF;
+}
+#home-hero .home-hero_desc p {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 25px;
+  color: #FFFFFF;
+}
+
+/*# sourceMappingURL=Home.css.map */

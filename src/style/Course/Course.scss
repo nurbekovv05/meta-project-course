@@ -1,0 +1,115 @@
+@import "./Frontend/Frontend";
+body{
+  background: #102146;
+}
+
+#course{
+ background: #102146;
+  padding-top: 10vw;
+
+
+  .course-span{
+    span{
+      color: white;
+      font-weight: 400;
+      font-size: 16px;
+    }
+  }
+  .course-block{
+
+    &-title{
+      font-weight: 700;
+      font-size: 36px;
+      color: #FFFFFF;
+      text-align: center;
+      margin: 80px;
+    }
+    &-block2{
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      margin-bottom: 50px;
+    }
+    &-block3{
+      width: 370px;
+      height: 295px;
+      background: #FFFFFF;
+      border-radius: 15px;
+      h1{
+        font-weight: 700;
+        font-size: 24px;
+        color: #000000;
+        text-align: center;
+        margin-top: 30px;
+        margin-left: -40px;
+      }
+      p{
+        width: 296px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        color: #000000;
+        margin-left: 35px;
+        margin-top: 20px;
+      }
+      .design1{
+        margin-left: -90px;
+
+      }
+      .design2{
+        margin-left: -80px;
+      }
+      .design3{
+        margin-left: -85px;
+      }
+      .design5{
+        margin-left: -85px;
+      }
+      .design6{
+        margin-left: -85px;
+      }
+      .master3{
+        margin-bottom: 80px;
+      }
+      .master4{
+        margin-bottom: 40px;
+      }
+      .master5{
+        margin-bottom: 40px;
+      }
+      .master6{
+        margin-bottom: 75px;
+      }
+      .master7{
+        margin-bottom: 60px;
+      }
+      .master8{
+        margin-bottom: 60px;
+      }
+      .master9{
+        margin-bottom: 93px;
+      }
+
+
+      .course-nav{
+        display: flex;
+        align-items: center;
+        margin: 20px;
+        .nav-course{
+          padding: 10px;
+          font-weight: 700;
+          font-size: 16px;
+          color: #000000;
+          margin-left: 5px;
+
+        }
+      }
+
+    }
+  }
+
+}
+
+
+
+
